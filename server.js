@@ -1,19 +1,13 @@
-// require('dotenv').config()
-// console.log(process.env)
+
 const db = require('./config');
-// const { error } = require('console');
+
 const inquirer = require('inquirer');
 
 const validate = require('./js/validate');
 const PORT = process.env.PORT || 3001
 const connection = require('./config/index')
 
-// const { default: Choice } = require('inquirer/lib/objects/choices');
-// const values = [
-    
-//     'first_name', 'last_name', 'title', 'salary', 'department_name', 'department_id', 'role_id'
-// ]
-// console.table(values[0], values.slice(1));
+
 
 // database connection and inquirer start prompt
 connection.connect((error)=>{
@@ -35,7 +29,7 @@ function startPrompt() {
                 'Add a Department',
                 'Add a Role',
                 'Add an Employee',
-                'Update Employee',
+                'Update Employee Role',
                 'Update Employee Manager',
                 'Remove Employee',
                 'Quit'
@@ -65,7 +59,7 @@ function startPrompt() {
         if (task === 'Add an Employee') {
             addEmployee();
         }
-        if (task === 'Update Employee') {
+        if (task === 'Update Employee Role') {
             updateEmployee();
         }
         if (task === 'Update Employee Manager') {
@@ -448,21 +442,7 @@ const removeEmployee = () => {
 
 
 
-// function queryAllUsers(){
-//     db.promise().query("SELECT * FROM employees").then((results)=>{
-//         console.log(results)
-//     })
-//     .catch (error => console.log(error))
-// } 
 
-
-
-// function main(){
-//     startPrompt() 
-// }
-
-
-// main()
 
     
 

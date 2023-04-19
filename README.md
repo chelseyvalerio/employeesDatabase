@@ -40,19 +40,19 @@ The following video shows an example of the application being used from the comm
 
 UPDATE THIS STILL!!
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/Screenshot%202023-04-18%20at%208.55.33%20PM.png)](https://drive.google.com/file/d/1qCxnxIyTkvQmnnmVrRkwCuTaRgWcC0ko/view)
 
 ## To Start Application
 
 Source schema and seeds files
-Install packages inquirer, console.table, and validate
+Install packages inquirer, console.table, and validate.
 Start application with npm start
 
 ## Demo and GitHub Links
 
-GitHub:
+GitHub: https://github.com/chelseyvalerio/employeesDatabase
 
-Video Demo:
+Video Demo: https://drive.google.com/file/d/1qCxnxIyTkvQmnnmVrRkwCuTaRgWcC0ko/view
 
 ## Contact
 
